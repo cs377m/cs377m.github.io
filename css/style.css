@@ -18,7 +18,7 @@
 
 body {
 	background: #fff;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1;
@@ -70,9 +70,9 @@ p a:hover {
 #header ul li a {
 	color: #252525;
 	display: inline-block;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 14px;
-	font-weight: normal;
+	font-family: "Montserrat", "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
 	margin: 0;
 	padding: 0 0 3px;
 	text-decoration: none;
@@ -221,7 +221,7 @@ p a:hover {
 	width: 100%;
 }
 #body #featured div {
-	left: 50%;
+	left: 10%;
 	margin-left: -480px;
 	margin-top: -171px;
 	padding: 0 0 0 470px;
@@ -248,6 +248,13 @@ p a:hover {
 	font-size: 20px;
 	margin: 7px 0;
 	padding: 12px 27px;
+}
+#body #featured div #blurb {
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	margin: 0 0 18px;
+	padding: 23px 27px 20px;
 }
 #body #featured div a {
 	background: #0ba39c;
@@ -299,10 +306,14 @@ p a:hover {
 #body > ul li a:hover img {
 	opacity: 1;
 }
-#body > ul li a span {
+#body > ul li span {
 	display: block;
 	margin: 0;
 	padding: 33px 0 0;
+	font-family: poller_oneregular;
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 #body form {
 	margin: 0 auto;
@@ -407,4 +418,8 @@ p a:hover {
 }
 #footer div ul li #pinterest:hover {
 	background-position: -44px -132px;
+}
+
+.profile {
+	width: 290px;
 }
